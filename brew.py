@@ -11,7 +11,7 @@ def countdown(seconds):
         sys.stdout.write(f"\rWaiting {remaining} seconds...")
         sys.stdout.flush()
         time.sleep(1)
-    clear_sceen()
+    clear_screen()
 
 def loading_spinner():
     spinner = ['|', '/', '-', '\\']
